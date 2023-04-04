@@ -27,7 +27,7 @@ app.post('/api/replaceText', (req, res) => {
   const html4 = replacePlaceholders(htmlTemplate4, requestData);
   const html5 = replacePlaceholders(htmlTemplate5, requestData);
 
-  mongoose.connect('mongodb+srv://mahesh:TCPzsJRtO6OQ5HD9@cluster0.obfk2as.mongodb.net/?retryWrites=true&w=majority', { useNewUrlParser: true });
+  mongoose.connect('mongodb+srv://surjit:TCPzsJRtO6OQ5HD9@cluster0.obfk2as.mongodb.net/?retryWrites=true&w=majority', { useNewUrlParser: true });
 
 
   const responseSchema = new mongoose.Schema({
